@@ -1,7 +1,7 @@
 /*******************************************
-*  [CW/TG] 3.5.0 plugin for CS 1.6 server  *
-*       Created by (c) Lukas Mestan        *
-*               2006-2011                  *
+*  [CW/TG] 3.5.1 plugin for CS 1.6 server  *
+*           Author Lukas Mestan            *
+*               2006-2008                  *
 ********************************************/
 
 /**
@@ -131,7 +131,7 @@ public void:plugin_init()
     // UKAZE SCHORE 
 	register_event("TeamScore", "Event_TeamScore", "a")
 	register_logevent("ClientCommand_SayScore", 2, "1=Round_End")  
-    	register_clcmd("say /score", "ClientCommand_SayScore", 0, "- ukaze score v say")
+    register_clcmd("say /score", "ClientCommand_SayScore", 0, "- ukaze score v say")
 }
 
 /**
