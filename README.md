@@ -14,11 +14,9 @@ say /menu
 say /start
 say /stop
 say /rr 
-say /pauza 
 say /scr 
 say /rec
 say /score
-say /heslo
 say /status 
 ```
 
