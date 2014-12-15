@@ -6,8 +6,7 @@ AMX Clan Match plugin for Counter Strike 1.6.
 This package works on AMX MOD X 1.75 or more.
 
 
-Say Commands 
-=========
+*Say Commands*
 
 ```
 say /menu 
@@ -20,8 +19,7 @@ say /score
 say /status 
 ```
 
-Console Commands
-=========
+*Console Commands*
 
 ```
 newpw <pw>
@@ -30,8 +28,7 @@ cfgmenu
 ```
 
 
-Dependences Modules
-=========
+*Dependences Modules*
 
 ```
 #include <amxmodx>
@@ -41,8 +38,7 @@ Dependences Modules
 ```
 
 
-Config Files
-=========
+*Config Files*
 
 ```
 cwtg_config.ini  
